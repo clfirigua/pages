@@ -32,8 +32,15 @@
     width: 100%;
     height: 100%;
     background-color: var(--secondaryColor);
-    padding: 200px 100px 100px;
     color: var(--colorletters);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont-letters{
+    /* background-color: red; */
+    width: 85%;
+
 }
 .letters-cont p{
     margin-bottom: 20px;
@@ -69,6 +76,7 @@
 @media (min-width: 1334px){
     .letters-cont{
         padding: 80px 100px 100px 80px;
+        
     }
     .cohete{
         width: 90%;
@@ -80,6 +88,7 @@
 @media (max-width: 425px){
     .img-cont{
         display:none ;
+        
     }
     .letters-cont{
         padding: 80px 40px;
@@ -91,7 +100,7 @@
     }
     .letters-cont{
         width: 100%;
-        padding: 200px 100px 100px;
+        
     }
     .cohete{
         width: 100%;
